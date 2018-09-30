@@ -1,0 +1,116 @@
+Change component parameters: Designator = ""; Footprint = "CELL HDR"; UniqueID = "\SKULGVMY"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Colour"; Value = "Black"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Gender"; Value = "Male"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Material"; Value = "Bronze,Copper"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Gold"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "3A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ELV"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Flammability Rating"; Value = "UL94 V-0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Glow Wire Compliant"; Value = "Non-compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Housing Material"; Value = "Polyester"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Molex"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "70555-0054"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Material"; Value = "Brass"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mating Post Length"; Value = "6.1mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Circuits"; Value = "20"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Contacts"; Value = "20"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions"; Value = "20"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Orientation"; Value = "Right Angle"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Rail/Tube"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pricing 1"; Value = "360=6.1646 (USD)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Stock 1"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "0705550054-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination Post Length"; Value = "3.3mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "250V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (DC)"; Value = "250V"; VariantName = "[No Variations]"
+Change Net Name : Old Net Name=NetC65_1_2 New Net Name=VSNS1
+Change Net Name : Old Net Name=NetC65_2_2 New Net Name=VSNS2
+Change Net Name : Old Net Name=NetC65_3_2 New Net Name=VSNS3
+Change Net Name : Old Net Name=NetC65_4_2 New Net Name=VSNS4
+Change Net Name : Old Net Name=NetC65_5_2 New Net Name=VSNS5
+Change Net Name : Old Net Name=NetC65_6_2 New Net Name=VSNS6
+Change Net Name : Old Net Name=NetC65_7_2 New Net Name=VSNS7
+Change Net Name : Old Net Name=NetC65_8_2 New Net Name=VSNS8
+Change Net Name : Old Net Name=NetC65_9_2 New Net Name=VSNS9
+Change Net Name : Old Net Name=NetC65_10_2 New Net Name=VSNS10
+Change Net Name : Old Net Name=NetC65_11_2 New Net Name=VSNS11
+Change Net Name : Old Net Name=NetC65_12_2 New Net Name=VSNS12
+Change Net Name : Old Net Name=NetC65_13_2 New Net Name=VSNS13
+Change Net Name : Old Net Name=NetC65_14_2 New Net Name=VSNS14
+Change Net Name : Old Net Name=NetC65_15_2 New Net Name=VSNS15
+Change Net Name : Old Net Name=NetC65_16_2 New Net Name=VSNS16
+Change Net Name : Old Net Name=NetR96_1 New Net Name=VSNS0
+Change Net Name : Old Net Name=NetR117_1_1 New Net Name=EQ1
+Change Net Name : Old Net Name=NetR117_2_1 New Net Name=EQ2
+Change Net Name : Old Net Name=NetR117_3_1 New Net Name=EQ3
+Change Net Name : Old Net Name=NetR117_4_1 New Net Name=EQ4
+Change Net Name : Old Net Name=NetR117_5_1 New Net Name=EQ5
+Change Net Name : Old Net Name=NetR117_6_1 New Net Name=EQ6
+Change Net Name : Old Net Name=NetR117_7_1 New Net Name=EQ7
+Change Net Name : Old Net Name=NetR117_8_1 New Net Name=EQ8
+Change Net Name : Old Net Name=NetR117_9_1 New Net Name=EQ9
+Change Net Name : Old Net Name=NetR117_10_1 New Net Name=EQ10
+Change Net Name : Old Net Name=NetR117_11_1 New Net Name=EQ11
+Change Net Name : Old Net Name=NetR117_12_1 New Net Name=EQ12
+Change Net Name : Old Net Name=NetR117_13_1 New Net Name=EQ13
+Change Net Name : Old Net Name=NetR117_14_1 New Net Name=EQ14
+Change Net Name : Old Net Name=NetR117_15_1 New Net Name=EQ15
+Change Net Name : Old Net Name=NetR117_16_1 New Net Name=EQ16
+Change Class Name : Old Net Name=BMS_rev2 New Net Name=CELL_BALANCE
+Change Class Name : Old Net Name=VSENSE_EQ New Net Name=1
+Added Class: Name=2
+Added Class: Name=3
+Added Class: Name=4
+Added Class: Name=5
+Added Class: Name=6
+Added Class: Name=7
+Added Class: Name=8
+Added Class: Name=9
+Added Class: Name=10
+Added Class: Name=11
+Added Class: Name=12
+Added Class: Name=13
+Added Class: Name=14
+Added Class: Name=15
+Added Class: Name=16
+Added Class: Name=VSENSE_EQ
+Added Member To Class: ClassName=CELL_BALANCE Member=Component C51 Cap Semi
+Added Member To Class: ClassName=CELL_BALANCE Member=Component C52 Cap Semi
+Added Member To Class: ClassName=1 Member=Component C65_1 (C65) Cap Semi
+Added Member To Class: ClassName=CELL_BALANCE Member=Component D17 
+Added Member To Class: ClassName=CELL_BALANCE Member=Component D18 
+Added Member To Class: ClassName=CELL_BALANCE Member=Component D19 
+Added Member To Class: ClassName=CELL_BALANCE Member=Component D20 
+Added Member To Class: ClassName=1 Member=Component D41_1 (D41) LED3
+Added Member To Class: ClassName=1 Member=Component D42_1 (D42) D Zener
+Added Member To Class: ClassName=1 Member=Component Q19_1 (Q19) 2V7002K
+Added Member To Class: ClassName=CELL_BALANCE Member=Component R95 Res3
+Added Member To Class: ClassName=CELL_BALANCE Member=Component R96 Res3
+Added Member To Class: ClassName=1 Member=Component R114_1 (R114) Res3
+Added Member To Class: ClassName=1 Member=Component R115_1 (R115) Res3
+Added Member To Class: ClassName=1 Member=Component R116_1 (R116) Res3
+Added Member To Class: ClassName=1 Member=Component R117_1 (R117) Res3
+Added Member To Class: ClassName=1 Member=Component R118_1 (R118) Res3
+Added Member To Class: ClassName=CELL_BALANCE Member=Component  HDR 20
+Added Room: Name=1
+Added Room: Name=2
+Added Room: Name=3
+Added Room: Name=4
+Added Room: Name=5
+Added Room: Name=6
+Added Room: Name=7
+Added Room: Name=8
+Added Room: Name=9
+Added Room: Name=10
+Added Room: Name=11
+Added Room: Name=12
+Added Room: Name=13
+Added Room: Name=14
+Added Room: Name=15
+Added Room: Name=16
+Added Room: Name=CELL_BALANCE

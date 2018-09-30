@@ -1,0 +1,42 @@
+Removed Pin From Net: NetName=GND Pin=C51-1
+Removed Pin From Net: NetName=GND Pin=C52-1
+Removed Pin From Net: NetName=GND Pin=C52-2
+Removed Pin From Net: NetName=NetD1_1_1 Pin=D1_1-1
+Removed Pin From Net: NetName=GND Pin=D19-1
+Removed Pin From Net: NetName=GND Pin=D19-2
+Removed Pin From Net: NetName=GND Pin=D20-1
+Removed Pin From Net: NetName=GND Pin=D20-2
+Removed Pin From Net: NetName=GND Pin=H4-1
+Removed Pin From Net: NetName=GND Pin=H4-2
+Removed Pin From Net: NetName=GND Pin=R96-2
+Added Pin To Net: NetName=NetD1_1_1 Pin=C51-1
+Added Pin To Net: NetName=NetD1_1_1 Pin=C52-1
+Added Pin To Net: NetName=VSNS0 Pin=C52-2
+Added Pin To Net: NetName=VSNS0 Pin=D1_1-1
+Added Pin To Net: NetName=NetD1_1_1 Pin=D19-1
+Added Pin To Net: NetName=VSNS0 Pin=D19-2
+Added Pin To Net: NetName=VSNS0 Pin=D20-1
+Added Pin To Net: NetName=NetD1_1_1 Pin=D20-2
+Added Pin To Net: NetName=NetD1_1_1 Pin=H4-1
+Added Pin To Net: NetName=VSNS0 Pin=H4-2
+Added Pin To Net: NetName=VSNS0 Pin=R96-2
+Change Net Name : Old Net Name=NetD1_1_1 New Net Name=GND
+Added Member To Class: ClassName=3 Member=Component R5_3 (R5) Res1
+Added Member To Class: ClassName=15 Member=Component R5_15 (R5) Res1
+Added Room: Name=1
+Added Room: Name=2
+Added Room: Name=3
+Added Room: Name=4
+Added Room: Name=5
+Added Room: Name=6
+Added Room: Name=7
+Added Room: Name=8
+Added Room: Name=9
+Added Room: Name=10
+Added Room: Name=11
+Added Room: Name=12
+Added Room: Name=13
+Added Room: Name=14
+Added Room: Name=15
+Added Room: Name=16
+Added Room: Name=CELL_BALANCE
