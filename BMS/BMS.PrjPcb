@@ -293,6 +293,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QJAHDINO
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for BMS\Design Rule Check - PCB_REV1.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0

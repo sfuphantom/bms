@@ -1,0 +1,23 @@
+Added Component: Designator=H4(CELL HDR)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=H4-1
+Added Pin To Net: NetName=VSNS0 Pin=H4-2
+Added Pin To Net: NetName=CELL0 Pin=H4-3
+Added Pin To Net: NetName=CELL1 Pin=H4-4
+Added Pin To Net: NetName=CELL2 Pin=H4-5
+Added Pin To Net: NetName=CELL3 Pin=H4-6
+Added Pin To Net: NetName=CELL4 Pin=H4-7
+Added Pin To Net: NetName=CELL5 Pin=H4-8
+Added Pin To Net: NetName=CELL6 Pin=H4-9
+Added Pin To Net: NetName=CELL7 Pin=H4-10
+Added Pin To Net: NetName=CELL8 Pin=H4-11
+Added Pin To Net: NetName=CELL9 Pin=H4-12
+Added Pin To Net: NetName=CELL10 Pin=H4-13
+Added Pin To Net: NetName=CELL11 Pin=H4-14
+Added Pin To Net: NetName=CELL12 Pin=H4-15
+Added Pin To Net: NetName=CELL13 Pin=H4-16
+Added Pin To Net: NetName=CELL14 Pin=H4-17
+Added Pin To Net: NetName=CELL15 Pin=H4-18
+Added Pin To Net: NetName=CELL16 Pin=H4-19
+Added Pin To Net: NetName=TOP Pin=H4-20
+Added Member To Class: ClassName=2 Member=Component H4 HDR 20
