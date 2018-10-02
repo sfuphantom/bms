@@ -1,2 +1,4 @@
 # bms
-Battery Management System: firmware for interfacing with BQ76PL455A 
+Battery Management System Repository
+
+Please refer to the wiki for more information
