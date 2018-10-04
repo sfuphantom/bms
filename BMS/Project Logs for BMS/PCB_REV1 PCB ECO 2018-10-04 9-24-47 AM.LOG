@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=TOP Pin=Q18-4
+Removed Pin From Net: NetName=TOP Pin=R17-1
+Removed Pin From Net: NetName=TOP Pin=R67-2
+Removed Pin From Net: NetName=TOP Pin=R95-1
+Added Pin To Net: NetName=TOPCELL_1 Pin=R17-1
+Added Pin To Net: NetName=TOPCELL_1 Pin=R95-1
+Added Pin To Net: NetName=TOPCELL_1 Pin=U1-76
+Added Net: Name=TOPCELL_1
+Added Pin To Net: NetName=TOPCELL Pin=C61-1
+Added Pin To Net: NetName=TOPCELL Pin=R67-2
+Added Net: Name=TOPCELL
