@@ -1,0 +1,7 @@
+Added Pin To Net: NetName=BOTTOMCELL Pin=D1_1-1
+Added Pin To Net: NetName=BOTTOMCELL Pin=H4-2
+Added Pin To Net: NetName=BOTTOMCELL Pin=R96-2
+Added Net: Name=BOTTOMCELL
+Added Member To Class: ClassName=2 Member=Component C52 Cap Semi
+Added Member To Class: ClassName=2 Member=Component R17 RES3
+Added Member To Class: ClassName=2 Member=Component R67 RES3
