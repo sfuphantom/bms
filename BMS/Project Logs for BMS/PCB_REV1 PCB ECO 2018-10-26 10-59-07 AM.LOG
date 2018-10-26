@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=TX Pin=R11-1
+Removed Pin From Net: NetName=FAULT_N Pin=R11-2
+Added Pin To Net: NetName=RX Pin=R11-1
+Added Pin To Net: NetName=VIO Pin=R11-2
