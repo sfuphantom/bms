@@ -226,23 +226,6 @@ GenerateClassCluster=0
 DocumentUniqueId=EYYMRPUW
 
 [Document12]
-DocumentPath=PCB_REV2.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=LXKEVJTC
-
-[Document13]
 DocumentPath=CELL_BALANCE.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -259,7 +242,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document14]
+[Document13]
 DocumentPath=BMS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -276,7 +259,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QJAHDINO
 
-[Document15]
+[Document14]
 DocumentPath=BMS_rev2.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -625,7 +608,7 @@ Configuration1_Item1=CaptionAsName
 Configuration1_Name2=Filter
 Configuration1_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
 Configuration1_Name3=General
-Configuration1_Item3=OpenExported=True|AddToProject=True|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=True|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\Public\Documents\Altium\AD17\Templates\BOM Default Template 95.xlt|BatchMode=5|FormWidth=1423|FormHeight=989|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration1_Item3=OpenExported=True|AddToProject=True|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=True|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\Public\Documents\Altium\AD17\Templates\BOM Default Template.XLT|BatchMode=5|FormWidth=1423|FormHeight=989|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
 Configuration1_Name4=GroupOrder
 Configuration1_Item4=Comment=True|Footprint=True
 Configuration1_Name5=PCBDocument
