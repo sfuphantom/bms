@@ -1,0 +1,232 @@
+
+**** Clean-only build of configuration Debug for project BMS_WORKING_CODE ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 clean -O 
+ 
+DEL /F  "BMS_WORKING_CODE.hex"  "BMS_WORKING_CODE.out" 
+DEL /F "source\dabort.obj" "source\esm.obj" "source\gio.obj" "source\notification.obj" "source\pinmux.obj" "source\pl455.obj" "source\rti.obj" "source\sci.obj" "source\sys_core.obj" "source\sys_dma.obj" "source\sys_intvecs.obj" "source\sys_main.obj" "source\sys_mpu.obj" "source\sys_pcr.obj" "source\sys_phantom.obj" "source\sys_pmm.obj" "source\sys_pmu.obj" "source\sys_selftest.obj" "source\sys_startup.obj" "source\sys_vim.obj" "source\system.obj" 
+DEL /F "source\esm.d" "source\gio.d" "source\notification.d" "source\pinmux.d" "source\pl455.d" "source\rti.d" "source\sci.d" "source\sys_dma.d" "source\sys_main.d" "source\sys_pcr.d" "source\sys_phantom.d" "source\sys_pmm.d" "source\sys_selftest.d" "source\sys_startup.d" "source\sys_vim.d" "source\system.d" 
+DEL /F "source\dabort.d" "source\sys_core.d" "source\sys_intvecs.d" "source\sys_mpu.d" "source\sys_pmu.d" 
+Could Not Find C:\xcelw\Phantom-BMS\bms\CCS_WS\BMS_WORKING_CODE\Debug\BMS_WORKING_CODE.hex
+Could Not Find C:\xcelw\Phantom-BMS\bms\CCS_WS\BMS_WORKING_CODE\Debug\source\dabort.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project BMS_WORKING_CODE ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../source/dabort.asm"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE" --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/dabort.d_raw" --obj_directory="source"  "../source/dabort.asm"
+Finished building: "../source/dabort.asm"
+ 
+Building file: "../source/gio.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE" --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/gio.d_raw" --obj_directory="source"  "../source/gio.c"
+Finished building: "../source/gio.c"
+ 
+Building file: "../source/esm.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE" --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/esm.d_raw" --obj_directory="source"  "../source/esm.c"
+Finished building: "../source/esm.c"
+ 
+Building file: "../source/notification.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE" --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/notification.d_raw" --obj_directory="source"  "../source/notification.c"
+Finished building: "../source/notification.c"
+ 
+Building file: "../source/pinmux.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE" --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/pinmux.d_raw" --obj_directory="source"  "../source/pinmux.c"
+Finished building: "../source/pinmux.c"
+ 
+Building file: "../source/sys_core.asm"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE" --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_core.d_raw" --obj_directory="source"  "../source/sys_core.asm"
+Finished building: "../source/sys_core.asm"
+ 
+Building file: "../source/rti.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE" --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/rti.d_raw" --obj_directory="source"  "../source/rti.c"
+Finished building: "../source/rti.c"
+ 
+Building file: "../source/pl455.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE" --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/pl455.d_raw" --obj_directory="source"  "../source/pl455.c"
+Finished building: "../source/pl455.c"
+ 
+Building file: "../source/sys_intvecs.asm"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE" --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_intvecs.d_raw" --obj_directory="source"  "../source/sys_intvecs.asm"
+Finished building: "../source/sys_intvecs.asm"
+ 
+Building file: "../source/sys_main.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE" --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:86: recipe for target 'source/sys_main.obj' failed
+"../source/sys_main.c", line 63: error #20: identifier "nDev_ID" is undefined
+"../source/sys_main.c", line 57: warning #552-D: variable "nSent" was set but never used
+"../source/sys_main.c", line 59: warning #179-D: variable "bFrame" was declared but never referenced
+1 error detected in the compilation of "../source/sys_main.c".
+gmake: *** [source/sys_main.obj] Error 1
+Building file: "../source/sys_mpu.asm"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE" --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_mpu.d_raw" --obj_directory="source"  "../source/sys_mpu.asm"
+Finished building: "../source/sys_mpu.asm"
+ 
+Building file: "../source/sys_dma.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE" --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_dma.d_raw" --obj_directory="source"  "../source/sys_dma.c"
+Finished building: "../source/sys_dma.c"
+ 
+Building file: "../source/sci.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE" --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sci.d_raw" --obj_directory="source"  "../source/sci.c"
+Finished building: "../source/sci.c"
+ 
+Building file: "../source/sys_phantom.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE" --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_phantom.d_raw" --obj_directory="source"  "../source/sys_phantom.c"
+Finished building: "../source/sys_phantom.c"
+ 
+Building file: "../source/sys_pmu.asm"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE" --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pmu.d_raw" --obj_directory="source"  "../source/sys_pmu.asm"
+Finished building: "../source/sys_pmu.asm"
+ 
+Building file: "../source/sys_pcr.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE" --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pcr.d_raw" --obj_directory="source"  "../source/sys_pcr.c"
+Finished building: "../source/sys_pcr.c"
+ 
+Building file: "../source/sys_pmm.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE" --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pmm.d_raw" --obj_directory="source"  "../source/sys_pmm.c"
+Finished building: "../source/sys_pmm.c"
+ 
+Building file: "../source/sys_startup.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE" --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_startup.d_raw" --obj_directory="source"  "../source/sys_startup.c"
+Finished building: "../source/sys_startup.c"
+ 
+Building file: "../source/sys_vim.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE" --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_vim.d_raw" --obj_directory="source"  "../source/sys_vim.c"
+Finished building: "../source/sys_vim.c"
+ 
+Building file: "../source/system.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE" --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/system.d_raw" --obj_directory="source"  "../source/system.c"
+Finished building: "../source/system.c"
+ 
+Building file: "../source/sys_selftest.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE" --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_selftest.d_raw" --obj_directory="source"  "../source/sys_selftest.c"
+Finished building: "../source/sys_selftest.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project BMS_WORKING_CODE ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE" --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+"../source/sys_main.c", line 57: warning #552-D: variable "nSent" was set but never used
+"../source/sys_main.c", line 58: warning #179-D: variable "nGrp_ID" was declared but never referenced
+"../source/sys_main.c", line 59: warning #179-D: variable "bFrame" was declared but never referenced
+Finished building: "../source/sys_main.c"
+ 
+Building target: "BMS_WORKING_CODE.out"
+Invoking: ARM Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"BMS_WORKING_CODE.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/lib" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="BMS_WORKING_CODE_linkInfo.xml" --rom_model --be32 -o "BMS_WORKING_CODE.out" "./source/dabort.obj" "./source/esm.obj" "./source/gio.obj" "./source/notification.obj" "./source/pinmux.obj" "./source/pl455.obj" "./source/rti.obj" "./source/sci.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "BMS_WORKING_CODE.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project BMS_WORKING_CODE ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE" --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:86: recipe for target 'source/sys_main.obj' failed
+"../source/sys_main.c", line 104: error #20: identifier "sciREGREG" is undefined
+"../source/sys_main.c", line 234: warning #112-D: statement is unreachable
+"../source/sys_main.c", line 57: warning #552-D: variable "nSent" was set but never used
+"../source/sys_main.c", line 58: warning #179-D: variable "nGrp_ID" was declared but never referenced
+"../source/sys_main.c", line 59: warning #179-D: variable "bFrame" was declared but never referenced
+"../source/sys_main.c", line 224: warning #179-D: variable "sendb" was declared but never referenced
+1 error detected in the compilation of "../source/sys_main.c".
+gmake: *** [source/sys_main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project BMS_WORKING_CODE ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE" --include_path="C:/xcelw/Phantom-BMS/bms/CCS_WS/BMS_WORKING_CODE/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+"../source/sys_main.c", line 234: warning #112-D: statement is unreachable
+"../source/sys_main.c", line 57: warning #552-D: variable "nSent" was set but never used
+"../source/sys_main.c", line 58: warning #179-D: variable "nGrp_ID" was declared but never referenced
+"../source/sys_main.c", line 59: warning #179-D: variable "bFrame" was declared but never referenced
+"../source/sys_main.c", line 224: warning #179-D: variable "sendb" was declared but never referenced
+Finished building: "../source/sys_main.c"
+ 
+Building target: "BMS_WORKING_CODE.out"
+Invoking: ARM Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"BMS_WORKING_CODE.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/lib" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="BMS_WORKING_CODE_linkInfo.xml" --rom_model --be32 -o "BMS_WORKING_CODE.out" "./source/dabort.obj" "./source/esm.obj" "./source/gio.obj" "./source/notification.obj" "./source/pinmux.obj" "./source/pl455.obj" "./source/rti.obj" "./source/sci.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "BMS_WORKING_CODE.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project BMS_WORKING_CODE ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'BMS_WORKING_CODE.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project BMS_WORKING_CODE ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'BMS_WORKING_CODE.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project BMS_WORKING_CODE ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'BMS_WORKING_CODE.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project BMS_WORKING_CODE ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'BMS_WORKING_CODE.out' is up to date.
+
+**** Build Finished ****
