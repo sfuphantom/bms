@@ -284,14 +284,6 @@ DItemRevisionGUID=
 DocumentPath=Project Outputs for BMS\Design Rule Check - PCB_REV1.html
 DItemRevisionGUID=
 
-[GeneratedDocument3]
-DocumentPath=Project Outputs for BMS\PCB_REV1.BOM
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for BMS\PCB_REV1.CSV
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Sources
 ParameterCount=0
