@@ -180,15 +180,6 @@ int main(void)
 
 
 
-
-
-
-
-
-
-
-
-
         // Auto-address all boards (section 1.2.2)
         nSent = WriteReg(0, 14, 0x19, 1, FRMWRT_ALL_NR); // set auto-address mode on all boards
         nSent = WriteReg(0, 12, 0x08, 1, FRMWRT_ALL_NR); // enter auto address mode on all boards, the next write to this ID will be its address
@@ -453,6 +444,7 @@ int main(void)
         for (j = 0; j < 33; j++) {
             if (j == 0) {
                 printf("Header -> Decimal: %d, Hex: %X\n", bFrame[j], bFrame[j]);
+                putchar('\n');
                 continue;
             }
 
@@ -465,6 +457,7 @@ int main(void)
             cellCount--;
             j++;
         }
+        putchar('\n');
 
         int auxCount = 7;
         for (j = 33; j < 49; j++) {
@@ -476,10 +469,14 @@ int main(void)
             j++;
             auxCount--;
         }
+        putchar('\n');
 
-        printf("Digital Die: Hex: %X %X \n", bFrame[49], bFrame[50]);
+        double digDieTemp = ((((bFrame[49]*16*16 + bFrame[50])/65535.0)*5) - 2.287) * 131.944;
+        printf("Digital Die: Hex: %X %X Temp: %f degrees C\n", bFrame[49], bFrame[50], digDieTemp);
 
-        printf("Analog Die: Hex: %X %X \n", bFrame[51], bFrame[52]);
+        double anaDieTemp = ((((bFrame[51]*16*16 + bFrame[52])/65535.0)*5) - 1.8078) * 147.514;
+        printf("Analog Die: Hex: %X %X Temp: %f degrees C\n", bFrame[51], bFrame[52], anaDieTemp);
+        putchar('\n');
 
         printf("CRC: Hex: %X %X \n", bFrame[53], bFrame[54]);
 
