@@ -146,7 +146,7 @@ int main(void)
     // initialize local variables
     int nSent, nRead, nTopFound = 0;
     int nDev_ID, nGrp_ID;
-    BYTE  bFrame[43];
+    BYTE  bFrame[55];
     uint32  wTemp = 0;
 
 
@@ -372,8 +372,8 @@ int main(void)
 
     // Select number of cells and channels to sample (section 2.2.5.1)
     nDev_ID = 0;
-    nSent = WriteReg(nDev_ID, 13, 0x10, 1, FRMWRT_SGL_NR); // set number of cells to 16
-    nSent = WriteReg(nDev_ID, 3, 0xFFFF03C0, 4, FRMWRT_SGL_NR); // select all cell, AUX channels 0 and 1, and internal digital die and internal analog die temperatures
+//    nSent = WriteReg(nDev_ID, 13, 0x10, 1, FRMWRT_SGL_NR); // set number of cells to 16
+//    nSent = WriteReg(nDev_ID, 3, 0xFFFF03C0, 4, FRMWRT_SGL_NR); // select all cell, AUX channels 0 and 1, and internal digital die and internal analog die temperatures
 
 
 
@@ -386,8 +386,8 @@ int main(void)
 //    nSent = WriteReg(0, 3, 0x00FF03C0, 4, FRMWRT_ALL_NR); // select all cell channels 1-8, AUX channels 0 and 1, and internal digital die and internal analog die temperatures
 
 
-//    nSent = WriteReg(0, 13, 0x10, 1, FRMWRT_ALL_NR); // set number of cells to 16
-//    nSent = WriteReg(0, 3, 0xFFFFFFC0, 4, FRMWRT_ALL_NR); // select all cell, all AUX channe1s, internal digital die and internal analog die temperatures
+    nSent = WriteReg(nDev_ID, 13, 0x10, 1, FRMWRT_ALL_NR); // set number of cells to 16
+    nSent = WriteReg(nDev_ID, 3, 0xFFFFFFC0, 4, FRMWRT_ALL_NR); // select all cell, all AUX channe1s, internal digital die and internal analog die temperatures
 
 
 
@@ -435,21 +435,21 @@ int main(void)
         //nSent = WaitRespFrame(bFrame, 43, 0); // 24 bytes data (x3) + packet header (x3) + CRC (x3), 0ms timeout
 
 
-        sciReceive(sciREG, 43, bFrame);
+        sciReceive(sciREG, 55, bFrame); //1 header, 16x2 cells, 2x8 AUX, 2 dig die, 2 ana die, 2 CRC
 
 
         delayms(100); // for the tms to record all the data first
 
 
         int i;
-        for(i = 0; i < 50; ++i){ //i < 43    1 header, 16x2 cells, 2 A0, 2 A1, 2 dig die, 2 ana die, 2 CRC
-            printf("%x ", bFrame[i]);
+        for(i = 0; i < 55; ++i){
+            printf("%X ", bFrame[i]);
         }
         putchar('\n');putchar('\n');
 
 //        int arrayLength = sizeof(bFrame) / sizeof(int);
         int j;
-        int cellCount = 1;
+        int cellCount = 16;
         for (j = 0; j < 33; j++) {
             if (j == 0) {
                 printf("Header -> Decimal: %d, Hex: %X\n", bFrame[j], bFrame[j]);
@@ -461,10 +461,27 @@ int main(void)
             double fin = div * 5.0;
 
 
-            printf("Cell %d: Hex: %X%X Voltage: %f \n", cellCount, bFrame[j], bFrame[j+1], fin);
-            cellCount++;
+            printf("Cell %d: Hex: %X %X Voltage: %fV \n", cellCount, bFrame[j], bFrame[j+1], fin);
+            cellCount--;
             j++;
         }
+
+        int auxCount = 7;
+        for (j = 33; j < 49; j++) {
+            int tempVal = bFrame[j]*16*16 + bFrame[j+1];
+            double div = tempVal/65535.0; //FFFF
+            double fin = div * 5.0;
+
+            printf("AUX %d: Hex: %X %X Voltage: %fV \n", auxCount, bFrame[j], bFrame[j+1], fin);
+            j++;
+            auxCount--;
+        }
+
+        printf("Digital Die: Hex: %X %X \n", bFrame[49], bFrame[50]);
+
+        printf("Analog Die: Hex: %X %X \n", bFrame[51], bFrame[52]);
+
+        printf("CRC: Hex: %X %X \n", bFrame[53], bFrame[54]);
 
 
         // Wait 5 seconds
