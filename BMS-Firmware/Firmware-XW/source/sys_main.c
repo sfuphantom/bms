@@ -465,7 +465,9 @@ int main(void)
             double div = tempVal/65535.0; //FFFF
             double fin = div * 5.0;
 
-            printf("AUX %d: Hex: %X %X Voltage: %fV \n", auxCount, bFrame[j], bFrame[j+1], fin);
+            double resistance = 10000*(fin/(4.56-fin));
+
+            printf("AUX %d: Hex: %X %X Voltage: %fV Resistance: %f Ohms\n", auxCount, bFrame[j], bFrame[j+1], fin, resistance);
             j++;
             auxCount--;
         }
