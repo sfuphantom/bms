@@ -74,7 +74,7 @@ DocumentUniqueId=TGLTSJLU
 
 [Document3]
 DocumentPath=VSENSE_EQ.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -91,7 +91,7 @@ DocumentUniqueId=JOCHIDBL
 
 [Document4]
 DocumentPath=CELL_BALANCE.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -108,7 +108,7 @@ DocumentUniqueId=GGGYQUDS
 
 [Document5]
 DocumentPath=DAISY_CHAINING.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -142,7 +142,7 @@ DocumentUniqueId=
 
 [Document7]
 DocumentPath=THERMO.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -176,7 +176,7 @@ DocumentUniqueId=
 
 [Document9]
 DocumentPath=NPN_CONNECTOR.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -244,7 +244,7 @@ DocumentUniqueId=
 
 [Document13]
 DocumentPath=BMS.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -277,82 +277,78 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for BMS\BMS_ver4
-DItemRevisionGUID=
-
-[GeneratedDocument2]
 DocumentPath=Project Outputs for BMS\BOM_5
 DItemRevisionGUID=
 
-[GeneratedDocument3]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for BMS\Design Rule Check - PCB_REV1.html
 DItemRevisionGUID=
 
-[GeneratedDocument4]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for BMS\PCB_REV1.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument5]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for BMS\PCB_REV1.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument6]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for BMS\PCB_REV1.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument7]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for BMS\PCB_REV1.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument8]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for BMS\PCB_REV1.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument9]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for BMS\PCB_REV1.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument10]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for BMS\PCB_REV1.GM1
 DItemRevisionGUID=
 
-[GeneratedDocument11]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for BMS\PCB_REV1.GM13
 DItemRevisionGUID=
 
-[GeneratedDocument12]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for BMS\PCB_REV1.GM15
 DItemRevisionGUID=
 
-[GeneratedDocument13]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for BMS\PCB_REV1.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument14]
+[GeneratedDocument13]
 DocumentPath=Project Outputs for BMS\PCB_REV1.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument15]
+[GeneratedDocument14]
 DocumentPath=Project Outputs for BMS\PCB_REV1.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument16]
+[GeneratedDocument15]
 DocumentPath=Project Outputs for BMS\PCB_REV1.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument17]
+[GeneratedDocument16]
 DocumentPath=Project Outputs for BMS\PCB_REV1.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument18]
+[GeneratedDocument17]
 DocumentPath=Project Outputs for BMS\PCB_REV1.REP
 DItemRevisionGUID=
 
-[GeneratedDocument19]
+[GeneratedDocument18]
 DocumentPath=Project Outputs for BMS\PCB_REV1.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument20]
+[GeneratedDocument19]
 DocumentPath=Project Outputs for BMS\PCB_REV1.TXT
 DItemRevisionGUID=
 
