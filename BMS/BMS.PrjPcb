@@ -74,7 +74,7 @@ DocumentUniqueId=TGLTSJLU
 
 [Document3]
 DocumentPath=VSENSE_EQ.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -91,7 +91,7 @@ DocumentUniqueId=JOCHIDBL
 
 [Document4]
 DocumentPath=CELL_BALANCE.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -108,7 +108,7 @@ DocumentUniqueId=GGGYQUDS
 
 [Document5]
 DocumentPath=DAISY_CHAINING.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -142,7 +142,7 @@ DocumentUniqueId=
 
 [Document7]
 DocumentPath=THERMO.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -176,7 +176,7 @@ DocumentUniqueId=
 
 [Document9]
 DocumentPath=NPN_CONNECTOR.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -244,9 +244,9 @@ DocumentUniqueId=
 
 [Document13]
 DocumentPath=BMS.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=7
@@ -280,10 +280,10 @@ DocumentUniqueId=
 DocumentPath=Serial.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=8
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1

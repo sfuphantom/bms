@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=FAULT_N Pin=J1-3
+Removed Pin From Net: NetName=RX Pin=J1-4
+Added Pin To Net: NetName=RX Pin=J1-3
+Added Pin To Net: NetName=FAULT_N Pin=J1-4
+Added Pin To Net: NetName=GND Pin=J4-1
