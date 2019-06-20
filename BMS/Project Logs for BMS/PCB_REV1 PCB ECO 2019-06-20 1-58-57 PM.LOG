@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=OUT Pin=C4-1
+Added Pin To Net: NetName=OUT Pin=U1-68
+Added Pin To Net: NetName=OUT Pin=U1-73
+Added Net: Name=OUT
