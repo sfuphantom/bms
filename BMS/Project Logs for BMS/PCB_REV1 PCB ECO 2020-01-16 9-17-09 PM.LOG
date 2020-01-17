@@ -1,0 +1,17 @@
+Added Pin To Net: NetName=FLT-IN Pin=J1-4
+Added Net: Name=FLT-IN
+Added Pin To Net: NetName=FLT-ISO Pin=R11-1
+Added Pin To Net: NetName=FLT-ISO Pin=U1-39
+Added Net: Name=FLT-ISO
+Added Pin To Net: NetName=ISO_GND Pin=J1-1
+Added Net: Name=ISO_GND
+Added Pin To Net: NetName=RX-IN Pin=J1-3
+Added Net: Name=RX-IN
+Added Pin To Net: NetName=TX-IN Pin=J1-2
+Added Net: Name=TX-IN
+Added Pin To Net: NetName=VCC-IN Pin=J1-5
+Added Net: Name=VCC-IN
+Added Pin To Net: NetName=WAKE-IN Pin=J1-6
+Added Net: Name=WAKE-IN
+Added Pin To Net: NetName=WAKE-ISO Pin=U2-2
+Added Net: Name=WAKE-ISO

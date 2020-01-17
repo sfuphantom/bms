@@ -1,0 +1,30 @@
+Added Component: Designator=U3(5V-ISO)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U4(Serial-ISO)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=ISO_GND Pin=J1-1
+Added Pin To Net: NetName=TX-IN Pin=J1-2
+Added Pin To Net: NetName=RX-IN Pin=J1-3
+Added Pin To Net: NetName=FLT-IN Pin=J1-4
+Added Pin To Net: NetName=VCC-IN Pin=J1-5
+Added Pin To Net: NetName=WAKE-IN Pin=J1-6
+Added Pin To Net: NetName=ISO_GND Pin=U3-1
+Added Pin To Net: NetName=VCC-IN Pin=U3-2
+Added Pin To Net: NetName=GND Pin=U3-3
+Added Pin To Net: NetName=VIO Pin=U3-4
+Added Pin To Net: NetName=VIO Pin=U4-1
+Added Pin To Net: NetName=GND Pin=U4-2
+Added Pin To Net: NetName=FAULT_N Pin=U4-3
+Added Pin To Net: NetName=TX Pin=U4-4
+Added Pin To Net: NetName=WAKE-ISO Pin=U4-5
+Added Pin To Net: NetName=RX Pin=U4-6
+Added Pin To Net: NetName=VIO Pin=U4-7
+Added Pin To Net: NetName=GND Pin=U4-8
+Added Pin To Net: NetName=ISO_GND Pin=U4-9
+Added Pin To Net: NetName=VCC-IN Pin=U4-10
+Added Pin To Net: NetName=RX-IN Pin=U4-11
+Added Pin To Net: NetName=WAKE-IN Pin=U4-12
+Added Pin To Net: NetName=TX-IN Pin=U4-13
+Added Pin To Net: NetName=FLT-IN Pin=U4-14
+Added Pin To Net: NetName=ISO_GND Pin=U4-15
+Added Pin To Net: NetName=VCC-IN Pin=U4-16

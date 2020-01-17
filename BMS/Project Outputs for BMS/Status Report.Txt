@@ -1,12 +1,9 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : Project [BMS.PrjPcb]
-   Generated File[PCB_REV1.TXT]
-   Generated File[PCB_REV1.LDP]
-   Generated File[PCB_REV1.DRR]
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [BMS.PrjPcb]
 
 
-Files Generated   : 3
+Files Generated   : 0
 Documents Printed : 0
 
-Finished Output Generation At 10:14:18 PM On 2019-06-21
+Finished Output Generation At 7:29:05 PM On 2019-07-03
