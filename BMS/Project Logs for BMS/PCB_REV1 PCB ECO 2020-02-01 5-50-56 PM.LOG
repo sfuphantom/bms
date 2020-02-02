@@ -1,0 +1,32 @@
+Added Pin To Net: NetName=BLNC_OUT_1 Pin=J4-4
+Added Pin To Net: NetName=BLNC_OUT_2 Pin=J4-5
+Added Pin To Net: NetName=BLNC_OUT_3 Pin=J4-6
+Added Pin To Net: NetName=BLNC_OUT_4 Pin=J4-7
+Added Pin To Net: NetName=BLNC_OUT_5 Pin=J4-8
+Added Pin To Net: NetName=BLNC_OUT_6 Pin=J4-9
+Added Pin To Net: NetName=BLNC_OUT_7 Pin=J4-10
+Added Pin To Net: NetName=BLNC_OUT_8 Pin=J4-11
+Added Pin To Net: NetName=BLNC_OUT_9 Pin=J4-12
+Added Pin To Net: NetName=BLNC_OUT_10 Pin=J4-13
+Added Pin To Net: NetName=BLNC_OUT_11 Pin=J4-14
+Added Pin To Net: NetName=BLNC_OUT_12 Pin=J4-15
+Added Pin To Net: NetName=BLNC_OUT_13 Pin=J4-16
+Added Pin To Net: NetName=BLNC_OUT_14 Pin=J4-17
+Added Pin To Net: NetName=BLNC_OUT_15 Pin=J4-18
+Added Pin To Net: NetName=BLNC_OUT_16 Pin=J4-19
+Change Net Name : Old Net Name=BLNC_OUT_1 New Net Name=CELL1
+Change Net Name : Old Net Name=BLNC_OUT_2 New Net Name=CELL2
+Change Net Name : Old Net Name=BLNC_OUT_3 New Net Name=CELL3
+Change Net Name : Old Net Name=BLNC_OUT_4 New Net Name=CELL4
+Change Net Name : Old Net Name=BLNC_OUT_5 New Net Name=CELL5
+Change Net Name : Old Net Name=BLNC_OUT_6 New Net Name=CELL6
+Change Net Name : Old Net Name=BLNC_OUT_7 New Net Name=CELL7
+Change Net Name : Old Net Name=BLNC_OUT_8 New Net Name=CELL8
+Change Net Name : Old Net Name=BLNC_OUT_9 New Net Name=CELL9
+Change Net Name : Old Net Name=BLNC_OUT_10 New Net Name=CELL10
+Change Net Name : Old Net Name=BLNC_OUT_11 New Net Name=CELL11
+Change Net Name : Old Net Name=BLNC_OUT_12 New Net Name=CELL12
+Change Net Name : Old Net Name=BLNC_OUT_13 New Net Name=CELL13
+Change Net Name : Old Net Name=BLNC_OUT_14 New Net Name=CELL14
+Change Net Name : Old Net Name=BLNC_OUT_15 New Net Name=CELL15
+Change Net Name : Old Net Name=BLNC_OUT_16 New Net Name=CELL16
