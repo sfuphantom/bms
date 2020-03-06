@@ -122,7 +122,7 @@ BYTE  MultipleSlaveReading[SIZE_OF_MULTI_SLAVES_MSG];
 uint32_t  wTemp = 0;
 bool SENSOR_READ_FLAG = false;
 bool CHARGING_FLAG;
-const uint32_t BMS_slaves_period = 1000;
+const uint32_t BMS_slaves_period = 1;
 uint8_t LED_Counter;
 uint8 BMS_CAN_MSG[8] = {1,2,3,4,5,6,7,8};
 
@@ -155,7 +155,13 @@ int main(void)
             case RUNNING:
                 if(SENSOR_READ_FLAG == true)
                 {
-                BMS_Read_Single(0);
+
+                //BMS_Read_Single_NP(0);
+              // BMS_Read_Single_NP(1);
+                //BMS_Read_Single_NP(2);
+                //gioToggleBit(gioPORTA, 2);
+                BMS_Read_All_NP();
+                gioToggleBit(gioPORTA, 2);
                 //Thermistor_Read();
 
                 BMS_CAN_MSG[1] = BMS.TOTAL_CELL_ERROR_FLAG;
@@ -404,7 +410,7 @@ void BMS_init(){
         // Select number of cells and channels to sample (section 2.2.5.1)
         nDev_ID = 0;
 
-        nSent = WriteReg(nDev_ID, 13, 0x10, 1, FRMWRT_ALL_NR); // set number of cells to 16
+        nSent = WriteReg(nDev_ID, 13, 0x0A, 1, FRMWRT_ALL_NR); // set number of cells to 16
         nSent = WriteReg(nDev_ID, 3, 0xFFFFFFC0, 4, FRMWRT_ALL_NR); // select all cell, all AUX channe1s, internal digital die and internal analog die temperatures
 
         // Set cell over-voltage and cell under-voltage thresholds on a single board (section 2.2.6.1)
@@ -432,7 +438,7 @@ void BMS_Read_All(){
 
         nSent = WriteReg(0, 2, TOTALBOARDS-1, 1, FRMWRT_ALL_R); // send sync sample command
 
-        sciReceive(sciREG, 107, MultipleSlaveReading); //1 header, 32x2 cells, 2x16 AUX, 4 dig die, 4 ana die, 2 CRC
+        sciReceive(sciREG, 55*TOTALBOARDS, MultipleSlaveReading); //1 header, 32x2 cells, 2x16 AUX, 4 dig die, 4 ana die, 2 CRC
 
         delayms(5); // for the tms to record all the data first
 
@@ -440,7 +446,7 @@ void BMS_Read_All(){
 
         uint8 j;
         sint8 i;
-        uint8 cellCount = 32;
+        uint8 cellCount = 16*TOTALBOARDS;
         for (i = TOTALBOARDS-1; i > -1; i--){
             for (j = 0; j < 33; j++) {
                 if (j == 0) {
@@ -503,7 +509,7 @@ void BMS_Read_All(){
 
              BMS.TOTAL_CELL_ERROR_COUNTER = 0;
 
-             uint8 auxCount = 15;
+             uint8 auxCount = 8*TOTALBOARDS-1;
          for (i = TOTALBOARDS-1; i > -1; i--){
              for (j = 33; j < 49; j++) {
                  int tempVal = MultipleSlaveReading[j+55*i]*16*16 + MultipleSlaveReading[j+1+55*i];
@@ -531,6 +537,114 @@ void BMS_Read_All(){
 
              }
 }
+
+void BMS_Read_All_NP(){
+        int_en = 1;
+
+        char buf[100];
+
+        nSent = WriteReg(0, 2, TOTALBOARDS-1, 1, FRMWRT_ALL_R); // send sync sample command
+
+        sciReceive(sciREG, 55*TOTALBOARDS, MultipleSlaveReading); //1 header, 32x2 cells, 2x16 AUX, 4 dig die, 4 ana die, 2 CRC
+
+        delayms(5); // for the tms to record all the data first
+
+
+
+        uint8 j;
+        sint8 i;
+        uint8 cellCount = 16*TOTALBOARDS;
+        for (i = TOTALBOARDS-1; i > -1; i--){
+            for (j = 0; j < 33; j++) {
+                if (j == 0) {
+                    // snprintf(buf, 30, "Header -> Decimal: %d, Hex: %X\n\n", MultipleSlaveReading[j+55*i], MultipleSlaveReading[j+55*i]);
+                     //UARTSend(scilinREG, buf);
+                     //UARTSend(scilinREG, "\n\r");
+                     continue;
+                }
+
+
+                uint32 tempVal = MultipleSlaveReading[j+55*i]*16*16 + MultipleSlaveReading[j+1+55*i];
+                double div = tempVal/65535.0; //FFFF
+                double fin = div * 5.0;
+
+
+                //snprintf(buf, 40, "Cell %d: Hex: %X %X Voltage: %fV \n\r", cellCount, MultipleSlaveReading[j+55*i], MultipleSlaveReading[j+1+55*i], fin);
+                //UARTSend(scilinREG, buf);
+                //UARTSend(scilinREG, "\n\r");
+
+                if(fin > 4.2){
+                    snprintf(buf, 20, "Cell %d Overvoltage\n\r", cellCount);
+                    //UARTSend(scilinREG, buf);
+                    //UARTSend(scilinREG, "\n\r");
+
+                    BMS.CELL_OVERVOLTAGE_FLAG[cellCount] = true;
+                    BMS.TOTAL_CELL_ERROR_COUNTER++;
+                }
+                else if(fin < 3.2){
+                    //snprintf(buf, 21, "Cell %d Undervoltage\n\r", cellCount);
+                   // UARTSend(scilinREG, buf);
+                    //UARTSend(scilinREG, "\n\r");
+
+                    BMS.CELL_UNDERVOLTAGE_FLAG[cellCount] = true;
+                    BMS.TOTAL_CELL_ERROR_COUNTER++;
+                }
+
+                if(BMS.CELL_OVERVOLTAGE_FLAG[cellCount] == true || BMS.CELL_UNDERVOLTAGE_FLAG[cellCount] == true){
+                    BMS.CELL_VOLTAGE_ERROR_COUNTER[cellCount]++;
+                }
+                else{
+                    BMS.CELL_VOLTAGE_ERROR_COUNTER[cellCount] = 0;
+                }
+
+                if(BMS.CELL_VOLTAGE_ERROR_COUNTER[cellCount] > 300){
+                    BMS.CELL_3SECOND_FLAG = true;
+                }
+
+                cellCount--;
+                j++;
+             }
+        }
+
+             if(BMS.TOTAL_CELL_ERROR_COUNTER > 4){
+                 BMS.TOTAL_CELL_ERROR_FLAG = true;
+             }
+
+            // snprintf(buf, 26, "NUMBER OF CELL ERRORS: %d\n\r", BMS.TOTAL_CELL_ERROR_COUNTER);
+             //UARTSend(scilinREG, buf);
+             //UARTSend(scilinREG, "\n\r");
+
+             BMS.TOTAL_CELL_ERROR_COUNTER = 0;
+
+             uint8 auxCount = 8*TOTALBOARDS-1;
+         for (i = TOTALBOARDS-1; i > -1; i--){
+             for (j = 33; j < 49; j++) {
+                 int tempVal = MultipleSlaveReading[j+55*i]*16*16 + MultipleSlaveReading[j+1+55*i];
+                 double div = tempVal/65535.0; //FFFF
+                 double fin = div * 5.0;
+
+                 double resistance = 10000*(fin/(4.56-fin));
+
+                 //snprintf(buf, 46, "AUX %d: Hex: %X %X Voltage: %fV Resistance: %f Ohms\n\n\r", auxCount, MultipleSlaveReading[j+55*i], MultipleSlaveReading[j+1+55*i], fin, resistance);
+                 //UARTSend(scilinREG, buf);
+                // UARTSend(scilinREG, "\n\r");
+                 j++;
+                 auxCount--;
+             }
+
+             double digDieTemp = ((((MultipleSlaveReading[49+55*i]*16*16 + MultipleSlaveReading[50+55*i])/65535.0)*5) - 2.287) * 131.944;
+             //snprintf(buf, 50, "Digital Die: Hex: %X %X Temp: %f degrees C\n\r", MultipleSlaveReading[49+55*i], MultipleSlaveReading[50+55*i], digDieTemp);
+             //UARTSend(scilinREG, buf);
+             //UARTSend(scilinREG, "\n\r");
+
+             double anaDieTemp = ((((MultipleSlaveReading[51+55*i]*16*16 + MultipleSlaveReading[52+55*i])/65535.0)*5) - 1.8078) * 147.514;
+             //snprintf(buf, 49, "Analog Die: Hex: %X %X Temp: %f degrees C\n\n\r", MultipleSlaveReading[51+55*i], MultipleSlaveReading[52+55*i], anaDieTemp);
+             //UARTSend(scilinREG, buf);
+             //UARTSend(scilinREG, "\n\r");
+
+             }
+}
+
 void BMS_Read_Single(uint8_t device){
 
     int_en = 1;
@@ -543,7 +657,8 @@ void BMS_Read_Single(uint8_t device){
 
     delayms(10); // for the tms to record all the data first
 
-
+    snprintf(buf, 30, "Device number %d", device);
+    UARTSend(scilinREG, buf);
 
     uint8 j;
     uint8 cellCount = 16;
@@ -634,6 +749,110 @@ void BMS_Read_Single(uint8_t device){
      UARTSend(scilinREG, "\n\r");
 }
 
+void BMS_Read_Single_NP(uint8_t device){
+
+    int_en = 1;
+
+    char buf[100];
+
+    nSent = WriteReg(device, 2, 0x02, 1, FRMWRT_SGL_R); // send sync sample command
+
+    sciReceive(sciREG, 55, SingleSlaveReading); //1 header, 16x2 cells, 2x8 AUX, 2 dig die, 2 ana die, 2 CRC
+
+    delayms(10); // for the tms to record all the data first
+
+    //snprintf(buf, 30, "Device number %d", device);
+    //UARTSend(scilinREG, buf);
+
+    uint8 j;
+    uint8 cellCount = 16;
+    for (j = 0; j < 33; j++) {
+        if (j == 0) {
+             //snprintf(buf, 30, "Header -> Decimal: %d, Hex: %X\n\n", SingleSlaveReading[j], SingleSlaveReading[j]);
+             //UARTSend(scilinREG, buf);
+             //UARTSend(scilinREG, "\n\r");
+             continue;
+        }
+
+
+        uint32 tempVal = SingleSlaveReading[j]*16*16 + SingleSlaveReading[j+1];
+        double div = tempVal/65535.0; //FFFF
+        double fin = div * 5.0;
+
+
+        //snprintf(buf, 40, "Cell %d: Hex: %X %X Voltage: %fV \n\r", cellCount, SingleSlaveReading[j], SingleSlaveReading[j+1], fin);
+        //UARTSend(scilinREG, buf);
+        //UARTSend(scilinREG, "\n\r");
+
+        if(fin > 4.2){
+           // snprintf(buf, 20, "Cell %d Overvoltage\n\r", cellCount);
+            //UARTSend(scilinREG, buf);
+           // UARTSend(scilinREG, "\n\r");
+
+            BMS.CELL_OVERVOLTAGE_FLAG[cellCount] = true;
+            BMS.TOTAL_CELL_ERROR_COUNTER++;
+        }
+        else if(fin < 3.2){
+           //snprintf(buf, 21, "Cell %d Undervoltage\n\r", cellCount);
+            //UARTSend(scilinREG, buf);
+            //UARTSend(scilinREG, "\n\r");
+
+            BMS.CELL_UNDERVOLTAGE_FLAG[cellCount] = true;
+            BMS.TOTAL_CELL_ERROR_COUNTER++;
+        }
+
+        if(BMS.CELL_OVERVOLTAGE_FLAG[cellCount] == true || BMS.CELL_UNDERVOLTAGE_FLAG[cellCount] == true){
+            BMS.CELL_VOLTAGE_ERROR_COUNTER[cellCount]++;
+        }
+        else{
+            BMS.CELL_VOLTAGE_ERROR_COUNTER[cellCount] = 0;
+        }
+
+        if(BMS.CELL_VOLTAGE_ERROR_COUNTER[cellCount] > 300){
+
+            BMS.CELL_3SECOND_FLAG = true;
+        }
+
+        cellCount--;
+        j++;
+     }
+
+     if(BMS.TOTAL_CELL_ERROR_COUNTER > 4){
+         BMS.TOTAL_CELL_ERROR_FLAG = true;
+     }
+
+    // snprintf(buf, 26, "NUMBER OF CELL ERRORS: %d\n\r", BMS.TOTAL_CELL_ERROR_COUNTER);
+     //UARTSend(scilinREG, buf);
+     //UARTSend(scilinREG, "\n\r");
+
+     BMS.TOTAL_CELL_ERROR_COUNTER = 0;
+
+     uint8 auxCount = 7;
+     for (j = 33; j < 49; j++) {
+         int tempVal = SingleSlaveReading[j]*16*16 + SingleSlaveReading[j+1];
+         double div = tempVal/65535.0; //FFFF
+         double fin = div * 5.0;
+
+         double resistance = 10000*(fin/(4.56-fin));
+
+         //snprintf(buf, 46, "AUX %d: Hex: %X %X Voltage: %fV Resistance: %f Ohms\n\n\r", auxCount, SingleSlaveReading[j], SingleSlaveReading[j+1], fin, resistance);
+         //UARTSend(scilinREG, buf);
+         //UARTSend(scilinREG, "\n\r");
+         j++;
+         auxCount--;
+     }
+
+     double digDieTemp = ((((SingleSlaveReading[49]*16*16 + SingleSlaveReading[50])/65535.0)*5) - 2.287) * 131.944;
+     //snprintf(buf, 50, "Digital Die: Hex: %X %X Temp: %f degrees C\n\r", SingleSlaveReading[49], SingleSlaveReading[50], digDieTemp);
+     //UARTSend(scilinREG, buf);
+     //UARTSend(scilinREG, "\n\r");
+
+     double anaDieTemp = ((((SingleSlaveReading[51]*16*16 + SingleSlaveReading[52])/65535.0)*5) - 1.8078) * 147.514;
+     //snprintf(buf, 49, "Analog Die: Hex: %X %X Temp: %f degrees C\n\n\r", SingleSlaveReading[51], SingleSlaveReading[52], anaDieTemp);
+     //UARTSend(scilinREG, buf);
+     //UARTSend(scilinREG, "\n\r");
+}
+
 void rtiNotification(uint32 notification)
 {
     if(notification == rtiNOTIFICATION_COMPARE3){
@@ -653,7 +872,7 @@ void rtiNotification(uint32 notification)
 }
 
 void setBMSTimerPeriod(uint32 timems){
-    rtiSetPeriod(rtiCOMPARE3, (TMS570_CLK/7700)*timems);
+    rtiSetPeriod(rtiCOMPARE3, 100000);
 }
 int GetTimeout(void)
 {
