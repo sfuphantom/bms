@@ -8,7 +8,7 @@
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_PROJECT.TMS570LS1224.ccxml.Texas Instruments XDS110 USB Debug Probe/CortexR4" value="Firmware-XW"/>
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_TARGET_CONFIG" value="${target_config_active_default:Firmware-XW}"/>
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.MRU_PROGRAM.C:\Phantom-Github\bms\BMS-Firmware\Firmware-XW\targetConfigs\TMS570LS1224.ccxml.Texas Instruments XDS110 USB Debug Probe/CortexR4" value="C:/Phantom-Github\bms\BMS-Firmware\Firmware-XW\Debug\Firmware-XW.out"/>
-<stringAttribute key="com.ti.ccstudio.debug.debugModel.MRU_PROGRAM.TMS570LS1224.ccxml.Texas Instruments XDS110 USB Debug Probe/CortexR4" value="C:/Users\Mahmoud Ahmed\workspace_v9_2\Firmware-XW\Debug\Firmware-XW.out"/>
+<stringAttribute key="com.ti.ccstudio.debug.debugModel.MRU_PROGRAM.TMS570LS1224.ccxml.Texas Instruments XDS110 USB Debug Probe/CortexR4" value="C:/Users\Mahmoud Ahmed\bms\Firmware-XW\Debug\Firmware-XW.out"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
 <listEntry value="/Firmware-XW"/>
 </listAttribute>

@@ -52,5 +52,15 @@ int  WaitRespFrame(BYTE *pFrame, BYTE bLen, uint32 dwTimeOut);
 void delayms(uint16 ms);
 void delayus(uint16 us);
 
+typedef struct BMS_FLAGS{
+    bool CELL_OVERVOLTAGE_FLAG[16];
+    bool CELL_UNDERVOLTAGE_FLAG[16];
+    bool CELL_HIGH_TEMPRATURE_FLAG[16];
+    uint16 CELL_VOLTAGE_ERROR_COUNTER[16];
+    uint8 TOTAL_CELL_ERROR_COUNTER;
+    bool TOTAL_CELL_ERROR_FLAG;
+    bool CELL_3SECOND_FLAG;
+} BMS_FLAGS;
+
 #endif /* PL455_H_ */
 //EOF

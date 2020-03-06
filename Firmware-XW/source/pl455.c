@@ -494,8 +494,8 @@ int  WaitRespFrame(BYTE *pFrame, BYTE bLen, uint32 dwTimeOut)
         // Check for timeout.
         if(RTI_TIMEOUT == 1U)
         {
-            RTI_TIMEOUT = 0;
-            return 0; // timed out
+            //RTI_TIMEOUT = 0;
+            //return 0; // timed out
         }
     } /* Wait */
     rtiStopCounter(rtiCOUNTER_BLOCK0);
