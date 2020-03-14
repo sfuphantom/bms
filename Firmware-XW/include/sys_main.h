@@ -8,8 +8,6 @@
 #ifndef INCLUDE_SYS_MAIN_H_
 #define INCLUDE_SYS_MAIN_H_
 
-#define SIZE_OF_SLAVES_MSG  55
-#define SIZE_OF_MULTI_SLAVES_MSG SIZE_OF_SLAVES_MSG*(TOTALBOARDS+1)
 
 enum States{
         STATE_HANDLING = 0,
@@ -26,9 +24,10 @@ void BMS_init(void);
 void BMS_Read_Single(uint8_t device);
 void BMS_Read_Single_NP(uint8_t device);
 void BMS_Read_All(void);
-void BMS_Read_All_NP(void);
+void BMS_Read_All_NP(double BMSReadArray[]);
 void setBMSTimerPeriod(uint32 timems);
 void Thermistor_Read(void);
+void BMS_Slaves_Heartbeat(void);
 int GetTimeout(void);
 
 typedef struct CAN_MSG{

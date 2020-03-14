@@ -28,7 +28,7 @@
 #define FRMWRT_ALL_NR   0x70 // general broadcast without response
 
 //#define TOTALBOARDS 16
-#define TOTALBOARDS 3
+#define TOTALBOARDS 2
 #define BAUDRATE 250000
 
 // Function Prototypes
