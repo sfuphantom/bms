@@ -1,0 +1,34 @@
+Change Component Footprint: Designator=R11 Old Footprint=0402 RES New Footprint=0603 RES
+Change Component Comment : Designator=R11 Old Comment=0R New Comment=100K
+Added Component: Designator=R30(0603 RES)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Composition"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "0.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "1.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "ERJ3EKF-1003V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Military Standard"; Value = "Not"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Rating"; Value = "100mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=0.1, 10=0.064, 100=0.0261, 1000=0.0117, 2500=0.0102 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "100kR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "10349154"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "P100KHCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "100ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "75V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "75V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "800um"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=TX Pin=R30-1
+Added Pin To Net: NetName=VIO Pin=R30-2

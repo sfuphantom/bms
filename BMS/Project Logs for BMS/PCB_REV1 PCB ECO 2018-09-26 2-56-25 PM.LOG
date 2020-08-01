@@ -1,0 +1,25 @@
+Change Component Footprint: Designator=C52 Old Footprint=C1206 New Footprint=0603 CAP
+Change Component Footprint: Designator=C51 Old Footprint=C1206 New Footprint=1210 cap
+Change Component Footprint: Designator=R96 Old Footprint=J1-0603 New Footprint=0603 RES
+Change Component Footprint: Designator=R95 Old Footprint=J1-0603 New Footprint=1206 RES
+Change Component Footprint: Designator=D17 Old Footprint=SMC New Footprint=DIODE BtoB
+Change Component Footprint: Designator=D18 Old Footprint=SMC New Footprint=DIODE BtoB
+Change Component Footprint: Designator=D19 Old Footprint=SMC New Footprint=DIODE BtoB
+Change Component Footprint: Designator=D20 Old Footprint=SMC New Footprint=DIODE BtoB
+Added Room: Name=1
+Added Room: Name=2
+Added Room: Name=3
+Added Room: Name=4
+Added Room: Name=5
+Added Room: Name=6
+Added Room: Name=7
+Added Room: Name=8
+Added Room: Name=9
+Added Room: Name=10
+Added Room: Name=11
+Added Room: Name=12
+Added Room: Name=13
+Added Room: Name=14
+Added Room: Name=15
+Added Room: Name=16
+Added Room: Name=CELL_BALANCE

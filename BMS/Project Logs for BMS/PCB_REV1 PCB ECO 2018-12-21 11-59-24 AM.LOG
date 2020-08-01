@@ -1,0 +1,43 @@
+Added Component: Designator=J4(CELL HDR)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Colour"; Value = "White"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "Male Pin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Mating Length"; Value = "0.177inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Housing Colour"; Value = "White"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Hirose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "DF1BZ-20P-2.5DS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "20"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "20"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "0.098inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=0.87, 10=0.765, 100=0.66, 500=0.54, 1000=0.48 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "76"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "H11015-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J4-1
+Added Pin To Net: NetName=BOTTOM Pin=J4-2
+Added Pin To Net: NetName=CELL0 Pin=J4-3
+Added Pin To Net: NetName=CELL1 Pin=J4-4
+Added Pin To Net: NetName=CELL2 Pin=J4-5
+Added Pin To Net: NetName=CELL3 Pin=J4-6
+Added Pin To Net: NetName=CELL4 Pin=J4-7
+Added Pin To Net: NetName=CELL5 Pin=J4-8
+Added Pin To Net: NetName=CELL6 Pin=J4-9
+Added Pin To Net: NetName=CELL7 Pin=J4-10
+Added Pin To Net: NetName=CELL8 Pin=J4-11
+Added Pin To Net: NetName=CELL9 Pin=J4-12
+Added Pin To Net: NetName=CELL10 Pin=J4-13
+Added Pin To Net: NetName=CELL11 Pin=J4-14
+Added Pin To Net: NetName=CELL12 Pin=J4-15
+Added Pin To Net: NetName=CELL13 Pin=J4-16
+Added Pin To Net: NetName=CELL14 Pin=J4-17
+Added Pin To Net: NetName=CELL15 Pin=J4-18
+Added Pin To Net: NetName=CELL16 Pin=J4-19
+Added Pin To Net: NetName=TOPCELL_1 Pin=J4-20

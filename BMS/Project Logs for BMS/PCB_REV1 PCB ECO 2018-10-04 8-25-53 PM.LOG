@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=VSNS0 Pin=R96-2
+Added Pin To Net: NetName=BOTTOM Pin=D1_1-1
+Added Pin To Net: NetName=BOTTOM Pin=H4-2
+Added Pin To Net: NetName=BOTTOM Pin=R96-2
+Added Net: Name=BOTTOM

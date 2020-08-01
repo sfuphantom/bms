@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [BMS.PrjPcb]
+   Generated File[PCB_REV1.TXT]
+   Generated File[PCB_REV1.LDP]
+   Generated File[PCB_REV1.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 12:49:03 PM On 2020-02-02

@@ -1,0 +1,47 @@
+Added Component: Designator=H2(THERMO HDR)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Colour"; Value = "Black"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "Male Pin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Brass"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Gold"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "10mR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "12.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fastening Type"; Value = "Ramp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Housing Colour"; Value = "Black"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Housing Material"; Value = "Polymer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "28.15mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Molex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "0430451601"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Voltage Rating (AC)"; Value = "250V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Right Angle"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tray"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=4.7, 10=4.512, 100=3.7602, 792=2.9142, 1584=2.6321 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "0.118inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "3016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "WM7490-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Added Component: Designator=H3(COMM HDR)
+Add component. Clean all parameters for all variants
+Added Component: Designator=H5(COMM HDR)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=AUX7 Pin=H2-1
+Added Pin To Net: NetName=AUX4 Pin=H2-4
+Added Pin To Net: NetName=AUX3 Pin=H2-5
+Added Pin To Net: NetName=AUX2 Pin=H2-6
+Added Pin To Net: NetName=AUX1 Pin=H2-7
+Added Pin To Net: NetName=H3COMMH- Pin=H3-1
+Added Pin To Net: NetName=H3COMMH+ Pin=H3-2
+Added Pin To Net: NetName=H3FAULTH- Pin=H3-3
+Added Pin To Net: NetName=H3FAULTH+ Pin=H3-4
+Added Pin To Net: NetName=H5FAULTL+ Pin=H5-1
+Added Pin To Net: NetName=H5FAULTL- Pin=H5-2
+Added Pin To Net: NetName=H5COMML+ Pin=H5-3
+Added Pin To Net: NetName=H5COMML- Pin=H5-4

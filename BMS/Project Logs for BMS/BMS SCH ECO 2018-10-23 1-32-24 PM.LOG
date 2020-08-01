@@ -1,0 +1,166 @@
+Change Component Footprint: Designator=C19 Old Footprint=1206 CAP New Footprint=0603 CAP - duplicate
+Change Component Footprint: Designator=C17 Old Footprint=1206 CAP New Footprint=0805 CAP
+Change Component Footprint: Designator=C18 Old Footprint=1206 CAP New Footprint=1210 cap
+Change Component Footprint: Designator=R6 Old Footprint=1206 RES New Footprint=0603 RES
+Change Component Footprint: Designator=R17 Old Footprint=1206 RES New Footprint=2512 RES
+Change Component Footprint: Designator=R7 Old Footprint=2512 RES New Footprint=0402 RES
+Change Component Footprint: Designator=R8 Old Footprint=2512 RES New Footprint=0402 RES
+Change Component Footprint: Designator=T2 Old Footprint=CHOKE NODE 100u New Footprint=CHOKE NODE 470u
+Change Component Footprint: Designator=T4 Old Footprint=CHOKE NODE 100u New Footprint=CHOKE NODE 470u
+Change Component Footprint: Designator=T5 Old Footprint=CHOKE NODE 470u New Footprint=CHOKE NODE 100u
+Change Component Footprint: Designator=T7 Old Footprint=CHOKE NODE 470u New Footprint=CHOKE NODE 100u
+Change Component Comment: Designator=R1 Old Comment=1K New Comment=Res1
+Change Component Comment: Designator=R1 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R1 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R1 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R1 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R1 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R1 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R1 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R1 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R1 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R1 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R1 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R1 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R1 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R1 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R1 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R2 Old Comment=1K New Comment=Res1
+Change Component Comment: Designator=R2 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R2 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R2 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R2 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R2 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R2 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R2 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R2 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R2 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R2 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R2 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R2 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R2 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R2 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R2 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=C1 Old Comment=1uF New Comment=Cap
+Change Component Comment: Designator=C1 Old Comment=Cap New Comment=Cap
+Change Component Comment: Designator=C1 Old Comment=Cap New Comment=Cap
+Change Component Comment: Designator=C1 Old Comment=Cap New Comment=Cap
+Change Component Comment: Designator=C1 Old Comment=Cap New Comment=Cap
+Change Component Comment: Designator=C1 Old Comment=Cap New Comment=Cap
+Change Component Comment: Designator=C1 Old Comment=Cap New Comment=Cap
+Change Component Comment: Designator=C1 Old Comment=Cap New Comment=Cap
+Change Component Comment: Designator=C1 Old Comment=Cap New Comment=Cap
+Change Component Comment: Designator=C1 Old Comment=Cap New Comment=Cap
+Change Component Comment: Designator=C1 Old Comment=Cap New Comment=Cap
+Change Component Comment: Designator=C1 Old Comment=Cap New Comment=Cap
+Change Component Comment: Designator=C1 Old Comment=Cap New Comment=Cap
+Change Component Comment: Designator=C1 Old Comment=Cap New Comment=Cap
+Change Component Comment: Designator=C1 Old Comment=Cap New Comment=Cap
+Change Component Comment: Designator=C1 Old Comment=Cap New Comment=Cap
+Change Component Comment: Designator=R4 Old Comment=2K New Comment=Res1
+Change Component Comment: Designator=R4 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R4 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R4 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R4 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R4 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R4 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R4 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R4 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R4 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R4 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R4 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R4 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R4 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R4 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R4 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=Q1 Old Comment=2V7002KT1G New Comment=2V7002K
+Change Component Comment: Designator=Q1 Old Comment=2V7002K New Comment=2V7002K
+Change Component Comment: Designator=Q1 Old Comment=2V7002K New Comment=2V7002K
+Change Component Comment: Designator=Q1 Old Comment=2V7002K New Comment=2V7002K
+Change Component Comment: Designator=Q1 Old Comment=2V7002K New Comment=2V7002K
+Change Component Comment: Designator=Q1 Old Comment=2V7002K New Comment=2V7002K
+Change Component Comment: Designator=Q1 Old Comment=2V7002K New Comment=2V7002K
+Change Component Comment: Designator=Q1 Old Comment=2V7002K New Comment=2V7002K
+Change Component Comment: Designator=Q1 Old Comment=2V7002K New Comment=2V7002K
+Change Component Comment: Designator=Q1 Old Comment=2V7002K New Comment=2V7002K
+Change Component Comment: Designator=Q1 Old Comment=2V7002K New Comment=2V7002K
+Change Component Comment: Designator=Q1 Old Comment=2V7002K New Comment=2V7002K
+Change Component Comment: Designator=Q1 Old Comment=2V7002K New Comment=2V7002K
+Change Component Comment: Designator=Q1 Old Comment=2V7002K New Comment=2V7002K
+Change Component Comment: Designator=Q1 Old Comment=2V7002K New Comment=2V7002K
+Change Component Comment: Designator=Q1 Old Comment=2V7002K New Comment=2V7002K
+Change Component Comment: Designator=D1 Old Comment=5.1V New Comment=D Zener
+Change Component Comment: Designator=D1 Old Comment=D Zener New Comment=D Zener
+Change Component Comment: Designator=D1 Old Comment=D Zener New Comment=D Zener
+Change Component Comment: Designator=D1 Old Comment=D Zener New Comment=D Zener
+Change Component Comment: Designator=D1 Old Comment=D Zener New Comment=D Zener
+Change Component Comment: Designator=D1 Old Comment=D Zener New Comment=D Zener
+Change Component Comment: Designator=D1 Old Comment=D Zener New Comment=D Zener
+Change Component Comment: Designator=D1 Old Comment=D Zener New Comment=D Zener
+Change Component Comment: Designator=D1 Old Comment=D Zener New Comment=D Zener
+Change Component Comment: Designator=D1 Old Comment=D Zener New Comment=D Zener
+Change Component Comment: Designator=D1 Old Comment=D Zener New Comment=D Zener
+Change Component Comment: Designator=D1 Old Comment=D Zener New Comment=D Zener
+Change Component Comment: Designator=D1 Old Comment=D Zener New Comment=D Zener
+Change Component Comment: Designator=D1 Old Comment=D Zener New Comment=D Zener
+Change Component Comment: Designator=D1 Old Comment=D Zener New Comment=D Zener
+Change Component Comment: Designator=D1 Old Comment=D Zener New Comment=D Zener
+Change Component Comment: Designator=R17 Old Comment=10R New Comment=RES3
+Change Component Comment: Designator=R3 Old Comment=75R New Comment=Res1
+Change Component Comment: Designator=R3 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R3 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R3 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R3 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R3 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R3 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R3 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R3 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R3 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R3 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R3 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R3 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R3 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R3 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R3 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R5 Old Comment=100K New Comment=Res1
+Change Component Comment: Designator=R5 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R5 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R5 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R5 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R5 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R5 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R5 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R5 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R5 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R5 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R5 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R5 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R5 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R5 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R5 Old Comment=Res1 New Comment=Res1
+Change Component Comment: Designator=R6 Old Comment=100R New Comment=Res3
+Change Component Comment: Designator=T6 Old Comment=100u New Comment=CHOKE NODE 100u
+Change Component Comment: Designator=T8 Old Comment=100u New Comment=CHOKE NODE 100u
+Change Component Comment: Designator=T2 Old Comment=100u New Comment=CHOKE NODE 470u
+Change Component Comment: Designator=T4 Old Comment=100u New Comment=CHOKE NODE 470u
+Change Component Comment: Designator=R7 Old Comment=200R New Comment=Res1
+Change Component Comment: Designator=R8 Old Comment=200R New Comment=Res1
+Change Component Comment: Designator=T5 Old Comment=470u New Comment=CHOKE NODE 100u
+Change Component Comment: Designator=T7 Old Comment=470u New Comment=CHOKE NODE 100u
+Change Component Comment: Designator=T1 Old Comment=470u New Comment=CHOKE NODE 470u
+Change Component Comment: Designator=T3 Old Comment=470u New Comment=CHOKE NODE 470u
+Change Component Comment: Designator=C17 Old Comment=1000pF New Comment=Cap Semi
+Change Component Comment: Designator=C18 Old Comment=1000pF New Comment=Cap Semi
+Change Component Comment: Designator=C19 Old Comment=1000pF New Comment=Cap Semi
+Change Component Comment: Designator=U1 Old Comment=BQ76PL455ATPFCRQ1 New Comment=BQ76PL455A-Q1
+Change Pin Designator/Name:  Old Designator=U1-30 Old Name=DGND1 New Designator =DGND1 New Name=30
+Change Pin Designator/Name:  Old Designator=U1-35 Old Name=DGND2 New Designator =DGND2 New Name=35
+Change Pin Designator/Name:  Old Designator=U1-37 Old Name=DGND3 New Designator =DGND3 New Name=37
+Change Pin Designator/Name:  Old Designator=U1-48 Old Name=CGND New Designator =CGND New Name=48
+Change Pin Designator/Name:  Old Designator=U1-50 Old Name=FAULTL+ New Designator =FAULTL+ New Name=50
+Change Pin Designator/Name:  Old Designator=U1-51 Old Name=FAULTL- New Designator =FAULTL- New Name=51
+Change Pin Designator/Name:  Old Designator=U1-52 Old Name=COMML+ New Designator =COMML+ New Name=52
+Change Pin Designator/Name:  Old Designator=U1-56 Old Name=FAULTH- New Designator =FAULTH- New Name=56
+Change Pin Designator/Name:  Old Designator=U1-69 Old Name=AGND3 New Designator =AGND3 New Name=69
+Change Pin Designator/Name:  Old Designator=U1-72 Old Name=AGND2 New Designator =AGND2 New Name=72
+Change Pin Designator/Name:  Old Designator=U1-74 Old Name=AGND1 New Designator =AGND1 New Name=74
