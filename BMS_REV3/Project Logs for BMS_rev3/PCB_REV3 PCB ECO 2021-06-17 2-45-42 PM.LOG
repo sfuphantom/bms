@@ -1,0 +1,26 @@
+Change Component Designator: OldDesignator=C24_111 NewDesignator=C24_12
+Change Component Designator: OldDesignator=C24_112 NewDesignator=C24_11
+Change Component Designator: OldDesignator=D18_111 NewDesignator=D18_12
+Change Component Designator: OldDesignator=D18_112 NewDesignator=D18_11
+Change Component Designator: OldDesignator=D19_111 NewDesignator=D19_12
+Change Component Designator: OldDesignator=D19_112 NewDesignator=D19_11
+Change Component Designator: OldDesignator=Q2_111 NewDesignator=Q2_12
+Change Component Designator: OldDesignator=Q2_112 NewDesignator=Q2_11
+Change Component Designator: OldDesignator=R35_111 NewDesignator=R35_12
+Change Component Designator: OldDesignator=R35_112 NewDesignator=R35_11
+Change Component Designator: OldDesignator=R36_111 NewDesignator=R36_12
+Change Component Designator: OldDesignator=R36_112 NewDesignator=R36_11
+Change Component Designator: OldDesignator=R37_111 NewDesignator=R37_12
+Change Component Designator: OldDesignator=R37_112 NewDesignator=R37_11
+Change Component Designator: OldDesignator=R38_111 NewDesignator=R38_12
+Change Component Designator: OldDesignator=R38_112 NewDesignator=R38_11
+Change Component Designator: OldDesignator=R39_111 NewDesignator=R39_12
+Change Component Designator: OldDesignator=R39_112 NewDesignator=R39_11
+Change Net Name : Old Net Name=BLEED_111 New Net Name=BLEED_12
+Change Net Name : Old Net Name=BLEED_112 New Net Name=BLEED_11
+Change Net Name : Old Net Name=BLN-LED_111 New Net Name=BLN-LED_12
+Change Net Name : Old Net Name=BLN-LED_112 New Net Name=BLN-LED_11
+Change Net Name : Old Net Name=FET-GATE_111 New Net Name=FET-GATE_12
+Change Net Name : Old Net Name=FET-GATE_112 New Net Name=FET-GATE_11
+Change Class Name : Old Net Name=111 New Net Name=12
+Change Class Name : Old Net Name=112 New Net Name=11

@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=TEMP-7 Pin=J5-9
+Removed Pin From Net: NetName=TEMP-6 Pin=J5-10
+Removed Pin From Net: NetName=TEMP-5 Pin=J5-11
+Removed Pin From Net: NetName=TEMP-4 Pin=J5-12
+Removed Pin From Net: NetName=TEMP-3 Pin=J5-13
+Removed Pin From Net: NetName=TEMP-2 Pin=J5-14
+Removed Pin From Net: NetName=TEMP-1 Pin=J5-15
+Removed Pin From Net: NetName=TEMP-0 Pin=J5-16
+Added Pin To Net: NetName=TEMP-0 Pin=J5-9
+Added Pin To Net: NetName=TEMP-1 Pin=J5-10
+Added Pin To Net: NetName=TEMP-2 Pin=J5-11
+Added Pin To Net: NetName=TEMP-3 Pin=J5-12
+Added Pin To Net: NetName=TEMP-4 Pin=J5-13
+Added Pin To Net: NetName=TEMP-5 Pin=J5-14
+Added Pin To Net: NetName=TEMP-6 Pin=J5-15
+Added Pin To Net: NetName=TEMP-7 Pin=J5-16

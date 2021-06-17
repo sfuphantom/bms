@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=RX Pin=J4-2
+Removed Pin From Net: NetName=WAKE Pin=J4-3
+Removed Pin From Net: NetName=nFLT Pin=J4-4
+Removed Pin From Net: NetName=TX Pin=J4-5
+Added Pin To Net: NetName=nFLT Pin=J4-2
+Added Pin To Net: NetName=TX Pin=J4-3
+Added Pin To Net: NetName=RX Pin=J4-4
+Added Pin To Net: NetName=WAKE Pin=J4-5

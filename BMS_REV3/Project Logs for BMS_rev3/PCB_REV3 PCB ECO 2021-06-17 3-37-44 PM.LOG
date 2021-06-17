@@ -1,0 +1,56 @@
+Removed Pin From Net: NetName=CELL11 Pin=J1-1
+Removed Pin From Net: NetName=CELL10 Pin=J1-2
+Removed Pin From Net: NetName=CELL9 Pin=J1-3
+Removed Pin From Net: NetName=CELL8 Pin=J1-4
+Removed Pin From Net: NetName=CELL7 Pin=J1-5
+Removed Pin From Net: NetName=CELL6 Pin=J1-6
+Removed Pin From Net: NetName=CELL5 Pin=J1-7
+Removed Pin From Net: NetName=CELL4 Pin=J1-8
+Removed Pin From Net: NetName=CELL3 Pin=J1-9
+Removed Pin From Net: NetName=CELL2 Pin=J1-10
+Removed Pin From Net: NetName=CELL1 Pin=J1-11
+Removed Pin From Net: NetName=CELL0 Pin=J1-12
+Change Component Footprint: Designator=J1 Old Footprint=12PIN New Footprint=13PIN
+Change Component Comment : Designator=J1 Old Comment=WM4934-ND New Comment=WM4911-ND
+Change component parameters: Designator = "J1"; Footprint = "13PIN"; UniqueID = "\RKCSGETH\UNSVDPQU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Color"; Value = "Black"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Connector Type"; Value = "Male Pin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Material"; Value = "Bronze"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Mating Length"; Value = "0.24inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Gold"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Resistance"; Value = "30mR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Depth"; Value = "13.59mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Housing Color"; Value = "Black"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Housing Material"; Value = "Polyester"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "35.57mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Molex"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "0705530012"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions"; Value = "13"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Orientation"; Value = "Right Angle"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Rail/Tube"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "0.1inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pricing 1"; Value = "1=6.09, 10=5.355, 100=4.2597, 1000=3.52944 (USD)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Stock 1"; Value = "22"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "WM4911-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=CELL12 Pin=J1-1
+Added Pin To Net: NetName=CELL11 Pin=J1-2
+Added Pin To Net: NetName=CELL10 Pin=J1-3
+Added Pin To Net: NetName=CELL9 Pin=J1-4
+Added Pin To Net: NetName=CELL8 Pin=J1-5
+Added Pin To Net: NetName=CELL7 Pin=J1-6
+Added Pin To Net: NetName=CELL6 Pin=J1-7
+Added Pin To Net: NetName=CELL5 Pin=J1-8
+Added Pin To Net: NetName=CELL4 Pin=J1-9
+Added Pin To Net: NetName=CELL3 Pin=J1-10
+Added Pin To Net: NetName=CELL2 Pin=J1-11
+Added Pin To Net: NetName=CELL1 Pin=J1-12
+Added Pin To Net: NetName=CELL0 Pin=J1-13
